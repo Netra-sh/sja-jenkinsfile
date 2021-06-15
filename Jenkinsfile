@@ -6,6 +6,10 @@ pipeline {
                 sh """
                 git clone https://github.com/Netra-sh/sja.git
                  ls 
+                 cd sja
+                 ls
+                 javac Linkedlist.java
+                 java Linkedlist
                  """
             }
         }
