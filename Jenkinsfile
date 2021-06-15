@@ -8,8 +8,8 @@ pipeline {
                  ls 
                  cd sja
                  ls
-                 javac LinkedLists.java
-                 java LinkedLists.java
+                 javac sample.java
+                 java sample.java
                  """
             }
         }
