@@ -13,5 +13,11 @@ pipeline {
                  """
             }
         }
+   
     }
-    }
+post {
+		cleanup {
+            cleanWs deleteDirs: true
+              }   
+}
+}
