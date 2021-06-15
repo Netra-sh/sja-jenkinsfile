@@ -9,7 +9,7 @@ pipeline {
                  cd sja
                  ls
                  javac LinkedLists.java
-                 java -cp LinkedLists
+                 java LinkedLists.java
                  """
             }
         }
